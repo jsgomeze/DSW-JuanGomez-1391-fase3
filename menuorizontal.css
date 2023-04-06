@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+}
+
+
+
+header {
+    background-color:lightgreen;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu1 {
+    margin: 0 auto;
+}
+
+#main-container header .menu1 .img1 .img2 img{
+    width: 160px;
+    height: 70px;
+    float: left;
+    padding: 24px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    padding: 50px 170px;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    display:block;
+    content: '';
+    width: 0%;
+    background: #8d8d8d;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+section .contenidocss {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+section .titulo {
+    background: #deb17a;
+    position: center;
+    border-style: double
+}
+section .contenidocss .tiposdeselectores {
+    background: #efd3a7;
+    position: center;
+    border-style: dashed;
+    display:block;
+    border-radius: 100%;
+}
+section .contenidocss .listaselectores {
+    margin-right: 25px;
+    border-radius: 2%;
+}
+
+#imgcodigo {
+    width: 550px;
+    border-radius: 5%;
+    float: right;
+}
