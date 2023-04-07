@@ -62,7 +62,7 @@ nav ul li a::before {
     display:block;
     content: '';
     width: 0%;
-    background: #8d8d8d;
+    background: #000000;
     height: 5px;
     top: 0;
     position: absolute;

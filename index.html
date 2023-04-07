@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 3 - Grupo</title>
+    <title>Fase 3</title>
     <link rel="stylesheet" href="sidemenu.css">
     <link rel="stylesheet" href="menuorizontal.css">
 </head>
@@ -11,7 +11,7 @@
     <div id="sidemenu" class="menu-expanded">
         <!-- HEADER -->
         <div id="header">
-            <div id="title"><span>Temas</span></div>
+            <div id="title"><span>SELECTORES CSS</span></div>
             <div id="menu-btn">
                 <div class="btn-hamburger"></div>
                 <div class="btn-hamburger"></div>
@@ -21,13 +21,13 @@
         
         <!-- PROFILE -->
         <div id="profile">
-            <div id="photo"><img src="https://www.marketbeat.com/logos/dsw-inc-logo.png" alt=""></div>
+            <div id="photo"><img src="img021.jpg" alt=""></div>
 
-            <div id="name"><span>DSW - 1391</span></div>
+            <div id="name"><span>Juan Gomez</span></div>
         </div>
 
         <!-- ITEMS -->
-   <br>
+   
             <div id="menu-items">
                 <div class="item">
                     <a href="#inicior">
@@ -40,50 +40,100 @@
                 </div>
 
                 <div class="item">
-                    <a href="#temas">
-                        <div class="icon"><img src="temas.png" /></div>
-                        <div class="title"><span>TEMAS</span></div>
-                    </a>
-                </div>
-
-                <div class="item separator">   
-                </div>
-
-                <div class="item">
-                    <a href="#nosotrosr">
+                    <a href="C:\Users\juanc\OneDrive\Documentos\GitHub\DSW-JuanGomez-1391-fase3\index1.html">
+                    <a href="C:\Users\juanc\OneDrive\Documentos\GitHub\DSW-JuanGomez-1391-fase3-audio\index.html">
                         <div class="icon"><img src="audio.png" /></div>
-                        <div class="title"><span>AUDIOS</span></div>
+                        <div class="title"><span>AUDIO</span></div>
                     </a>
                 </div>
-                
+
                 <div class="item separator">   
                 </div>
 
                 <div class="item">
                     <a href="#nosotrosr">
                         <div class="icon"><img src="nosotros.png" /></div>
-                        <div class="title"><span>EQUIPO </span></div>
+                        <div class="title"><span>NOSOTROS</span></div>
                     </a>
                 </div>
                 
                 <div class="item separator">   
                 </div>
-
             </div>
         </div>
+
+    <div id="main-container">
+
+        <header>
+            <div class="menu1">
+                <div class="img1">
+                    <a href=".">
+                        <div class="img2"><img src="selectorescss.png" /></div>
+                    </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicior">Inicio</a></li>
+                        <li><a href="#audior">Audio</a></li>
+                        <li><a href="#nosotrosr">Nosotros</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
 
     <section id="inicior">
         <center>
             <div>
-                <div class="titulo"><br><h2>Temas - DSW - Unidad 2</h2><br></div>
+                <div class="titulo"><br><h2>Selectores CSS</h2><br></div>
             </div>
         </center>
     </section>
 
-   
+    <section>
+        <div class="contenidocss"><br>
+                <p>Este tipo de selectores son usados para delimitar los elementos HTML que queremos aplicar estilos, para esto se puede ser muy preciso puesto que hay muchos estilos de etiquetas CSS.</p>
+                <br>
+                <p>El selector CSS es la primera regla CSS y funciona mediante una combinación o patrón de elementos con otros términos que le indican al investigador que elementos con otros términos que le indican al navegador que elementos HTML se les aplica la regla CSS, esta selección se llama sujeto del selector.</p>
+                <br>
+                <p>Este sirve para seleccionar etiquetas, es necesario conocer que cada tipo de CSS necesita ser admitido por el navegador, la mayoría de los selectores CSS, también están clasificados en especificación de nivel 3de selector, esta selección se llama sujeto del selector.</p>
+                <br>
+                <p>Estos tienen diferentes formas de aplicarse, pero si hay dos etiquetas con el mismo selector, para que sean mas legibles, lo mejor seria separar las dos etiquetas de renglón.</p>
+                <br>
+                <center>
+                    <div class="tiposdeselectores"><br><h3>Tipos de selectores:</h3><br></div>
+                </center>
+                <br><br>
+                <div class="listaselectores"><ul>
+                    <div>
+                        <aside><img id="imgcodigo" src="https://lh4.ggpht.com/-C1Cfgg8x_nY/VKC6SMRLWhI/AAAAAAAAdOY/RWFmTTK9raI/image%25255B3%25255D.png?imgmax=800" alt=""></aside>
+                    </div>
+                    <li>Selectores que delimita un elemento HTML, de tipo < h1>:</li>
+                    <br>
+                        <p>h1 {}</p>
+                    <br>
+                    <li>Selectores que delimitan una clase:</li>
+                    <br>
+                        <p>.box {}</p>
+                    <br>
+                    <li>Selectores que delimitan un ID:</li>
+                    <br>
+                        <p>#unique {}</p>
+                    <br>
+                    <li>Selección de atributo:</li>
+                    <br>
+                        <p>[title]{}</p>
+                    <br>
+                    <li>Selección de atributo que tiene un valor particular asignado:</li>
+                    <br>
+                    <p>a[href=”https://example.com”] {}</p>
+                    <br>
+                    
+                </ul></div>
+                    
+        </div> 
     </section>
     
-    <script> 
+    <script>
         const btn = document.querySelector('#menu-btn');
         const menu = document.querySelector('#sidemenu');
         btn.addEventListener('click', e =>{
@@ -93,18 +143,14 @@
             document.querySelector('body').classList.toggle('body-expanded');
         });
     </script>
-
-<section id="temas">
-    <nav>
-        <li><a href="https://sherman0830.github.io/DSW-Andr-sC-rdenas-1601/">Flex Box</a>
-        <li><a href="https://jsgomeze.github.io/DSW-JuanGomez-1391-fase3/">Selectores CSS</a>
-        <li><a href="#">Media queries</a>
-        <li><a href="#">CSS Grid</a>
-        <li><a href="#">Box model</a>
-    </nav>
-</section>
-
-<br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
+    <br><br><br><br><br>
+    <section id="audior">
+        <audio controls>
+            <source src="fase 3 herramientas digitales.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+<br>
+<br><br><br><br><br><br><br><br><br><br>
 <footer id="nosotrosr">
     <center>
         <h4>Politica de privacidad</h4>
